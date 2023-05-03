@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
         if (gameHasEnded == false)
         {
             gameHasEnded = true;
-            Debug.Log("GAME OVER"); //mesajul care apare in consola dupa pierderea jocului
+            Debug.Log("GAME OVER"); //mesajul care apare in consola dupa lovirea unui obstacol sau caderea de pe harta
             Invoke("Restart", restartDelay);
             // se restarteaza jocul odata ce s-a terminat
         }
