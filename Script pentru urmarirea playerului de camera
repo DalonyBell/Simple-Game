@@ -1,0 +1,12 @@
+using UnityEngine;
+
+public class followplayer : MonoBehaviour
+{
+    public Transform player;
+    public Vector3 offset;
+    // Se face update pentru fiecare frame
+    void Update()
+    {
+        transform.position = player.position + offset;
+    }
+}
