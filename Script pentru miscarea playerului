@@ -9,7 +9,7 @@ public class playermovement : MonoBehaviour
     public float sidewaysForce = 500f; //forta cu care se misca playerul la stanga/dreapta
 
 
-    // Se apeleaza update dupa fiecare frame
+    //  Update dupa fiecare frame
     void FixedUpdate()
     {
         rb.AddForce(0, 0, forwardForce * Time.deltaTime);
